@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header {
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #header h1 {
+    color: white;
+    margin: 0;
+  }
+  
+  #search {
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  
+  #cart, #login, #signup {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  #product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    margin: 5px 0;
+  }
+  
+  .product p {
+    margin: 5px 0;
+  }
+  
+  .product button {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .footer {
+    background-color:yellow;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer .logo img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .footer .links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer .links a:hover {
+    color: #777;
+  }
+  
+  .footer .social-icons {
+    margin-top: 20px;
+  }
+  
+  .footer .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #fff;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer .social-icons a:hover {
+    background-color: #555;
+  }
+  
+  .footer .copy-right {
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+  }

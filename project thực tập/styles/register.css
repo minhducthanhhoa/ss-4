@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.sign-up {
+    width: 420px;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.inp-name input {
+    width: 195px;
+    padding: 10px;
+    margin: 0 5px 20px 2px;
+}
+
+.inp-email input {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.inp-password input {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.checkbox {
+    text-align: left;
+    margin: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox div {
+    max-width: 250px;
+    line-height: 25px;
+}
+
+.btn-signUp {
+    width: 400px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.link {
+    text-align: right;
+    margin: 10px;
+}
+
+.end {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.error {
+    border: 1px solid red;
+    color: red;
+}
